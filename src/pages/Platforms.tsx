@@ -33,7 +33,7 @@ const Platforms = () => {
               Supported <span className="gradient-text">Platforms</span>
             </h1>
             <p className="text-lg text-muted-foreground">
-              We help brands succeed on 14+ major marketplaces across India, Middle East, and globally.
+              We help brands succeed on 30+ major marketplaces across India, Middle East, and globally.
             </p>
           </div>
         </div>

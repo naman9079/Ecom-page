@@ -3,8 +3,8 @@ import { useEffect, useState, useRef } from "react";
 const stats = [
   { value: 100, suffix: "+", label: "Brands Served" },
   { value: 1, suffix: "Cr+", label: "Revenue Generated", prefix: "₹" },
-  { value: 14, suffix: "+", label: "Platforms" },
-  { value: 5, suffix: "", label: "Years" },
+  { value: 30, suffix: "+", label: "Platforms" },
+  { value: 12, suffix: "", label: "Years" },
 ];
 
 const useCountAnimation = (target: number, duration: number = 2000, shouldStart: boolean) => {

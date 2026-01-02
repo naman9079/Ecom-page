@@ -54,8 +54,8 @@ export const Footer = () => {
             <ul className="space-y-3 text-sm">
               <li className="flex items-center gap-3 text-muted-foreground">
                 <Mail className="w-4 h-4 text-primary" />
-                <a href="mailto:ecomstudiio@gmail.com" className="hover:text-primary transition-colors">
-                  ecomstudiio@gmail.com
+                <a href="mailto:daecomstudio@gmail.com" className="hover:text-primary transition-colors">
+                  daecomstudio@gmail.com
                 </a>
               </li>
               <li className="flex items-center gap-3 text-muted-foreground">
@@ -76,9 +76,22 @@ export const Footer = () => {
           <p className="text-sm text-muted-foreground">
             © {new Date().getFullYear()} DA ECOM. All rights reserved.
           </p>
-          <div className="flex gap-6 text-sm text-muted-foreground">
-            <Link to="#" className="hover:text-primary transition-colors">Privacy Policy</Link>
-            <Link to="#" className="hover:text-primary transition-colors">Terms of Service</Link>
+          <div className="flex items-center gap-6">
+            <div className="flex gap-4">
+              <a
+                href="https://www.instagram.com/daecom.studio_/"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                className="text-muted-foreground hover:text-primary transition-colors"
+                aria-label="Follow us on Instagram"
+              >
+                <Instagram className="w-8 h-8" />
+              </a>
+            </div>
+            <div className="hidden md:flex gap-6 text-sm text-muted-foreground border-l border-border pl-6">
+              <Link to="#" className="hover:text-primary transition-colors">Privacy Policy</Link>
+              <Link to="#" className="hover:text-primary transition-colors">Terms of Service</Link>
+            </div>
           </div>
         </div>
       </div>

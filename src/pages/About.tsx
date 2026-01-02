@@ -82,7 +82,7 @@ const About = () => {
               <div className="glass p-8 rounded-2xl">
                 <div className="grid grid-cols-2 gap-6">
                   <div className="text-center">
-                    <div className="text-4xl font-bold gradient-text mb-2">5</div>
+                    <div className="text-4xl font-bold gradient-text mb-2">12</div>
                     <p className="text-sm text-muted-foreground">Years</p>
                   </div>
                   <div className="text-center">
@@ -94,7 +94,7 @@ const About = () => {
                     <p className="text-sm text-muted-foreground">Revenue Generated</p>
                   </div>
                   <div className="text-center">
-                    <div className="text-4xl font-bold gradient-text mb-2">14+</div>
+                    <div className="text-4xl font-bold gradient-text mb-2">30+</div>
                     <p className="text-sm text-muted-foreground">Platforms</p>
                   </div>
                 </div>

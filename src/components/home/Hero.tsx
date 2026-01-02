@@ -28,7 +28,7 @@ export const Hero = () => {
 
           {/* Subheadline */}
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto animate-fade-up" style={{ animationDelay: "0.2s" }}>
-            From marketplace onboarding to performance marketing, we help brands launch, manage, and grow on 14+ major platforms with data-driven strategies.
+            From marketplace onboarding to performance marketing, we help brands launch, manage, and grow on 30+ major platforms with data-driven strategies.
           </p>
 
           {/* CTAs */}
@@ -55,11 +55,11 @@ export const Hero = () => {
               <div className="text-sm">Revenue Generated</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-foreground">14+</div>
+              <div className="text-3xl font-bold text-foreground">30+</div>
               <div className="text-sm">Platforms</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-foreground">5</div>
+              <div className="text-3xl font-bold text-foreground">12</div>
               <div className="text-sm">Years</div>
             </div>
           </div>
