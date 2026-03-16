@@ -1,4 +1,10 @@
+import { useEffect } from "react";
+
 const Terms = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+  }, []);
+
   return (
     <main className="min-h-screen bg-white text-black">
       <section className="py-16 border-b border-gray-200">
