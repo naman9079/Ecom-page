@@ -43,8 +43,8 @@ const Contact = () => {
     // Create WhatsApp message
     const whatsappMessage = `*New Contact Form Submission*%0A%0A*Name:* ${formData.name}%0A*Email:* ${formData.email}%0A*Company:* ${formData.company}%0A*Service:* ${formData.service}%0A*Message:* ${formData.message}`;
     
-    // WhatsApp number (your number: 8094223445)
-    const whatsappNumber = "918094223445";
+    // WhatsApp number (your number: 9358223445)
+    const whatsappNumber = "919358223445";
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
     
     // Small delay for better UX
@@ -222,8 +222,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">Email Us</h4>
-                    <a href="mailto:daecomstudio@gmail.com" className="text-muted-foreground hover:text-primary transition-colors block">
-                      daecomstudio@gmail.com
+                    <a href="mailto:info@daecomstudio.com" className="text-muted-foreground hover:text-primary transition-colors block">
+                      info@daecomstudio.com
                     </a>
                   </div>
                 </div>
@@ -234,8 +234,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">Call Us</h4>
-                    <a href="tel:+918094223445" className="text-muted-foreground hover:text-primary transition-colors block">
-                      +91 80942 23445
+                    <a href="tel:+919358223445" className="text-muted-foreground hover:text-primary transition-colors block">
+                      +91 93582 23445
                     </a>
                     <p className="text-muted-foreground">Mon-Fri, 9am-6pm IST</p>
                   </div>

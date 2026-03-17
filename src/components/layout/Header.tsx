@@ -19,8 +19,11 @@ export const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 glass">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 md:h-20">
-          <Link to="/" className="flex items-center gap-2">
-            <img src="/logo/logo.jpg" alt="DA ECOM" className="h-12 w-auto" />
+          <Link
+            to="/"
+            className="flex items-center overflow-hidden rounded-lg bg-gradient-to-r from-purple-700/30 via-violet-600/25 to-indigo-600/30 px-1 py-0.5 md:px-1.5 md:py-0.5 border border-primary/25"
+          >
+            <img src="/logo/logo.jpg?v=20260317" alt="DA ECOM" className="h-12 md:h-14 w-auto object-contain scale-[1.28]" />
           </Link>
 
           {/* Desktop Navigation */}

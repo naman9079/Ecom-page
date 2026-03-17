@@ -11,25 +11,25 @@ export const InstagramFeed = () => {
   const instagramPosts = [
     {
       id: 1,
-      image: "/logo/logo.jpg",
+      image: "/logo/logo.jpg?v=20260317",
       caption: "Empowering ecommerce brands",
       likes: 245,
     },
     {
       id: 2,
-      image: "/logo/logo.jpg",
+      image: "/logo/logo.jpg?v=20260317",
       caption: "Digital marketing excellence",
       likes: 189,
     },
     {
       id: 3,
-      image: "/logo/logo.jpg",
+      image: "/logo/logo.jpg?v=20260317",
       caption: "Marketplace growth strategies",
       likes: 312,
     },
     {
       id: 4,
-      image: "/logo/logo.jpg",
+      image: "/logo/logo.jpg?v=20260317",
       caption: "Social media success",
       likes: 276,
     },
