@@ -91,7 +91,7 @@ export const Footer = () => {
                 <Instagram className="w-8 h-8" />
               </a>
             </div>
-            <div className="hidden md:flex gap-6 text-sm text-muted-foreground border-l border-border pl-6">
+            <div className="flex items-center gap-4 md:gap-6 text-sm text-muted-foreground border-t md:border-t-0 md:border-l border-border pt-4 md:pt-0 md:pl-6 w-full md:w-auto justify-center md:justify-start">
               <Link to="/terms" className="hover:text-primary transition-colors">Terms &amp; Conditions</Link>
               <Link to="/privacy" className="hover:text-primary transition-colors">Privacy Policy</Link>
             </div>
